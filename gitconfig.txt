@@ -1,0 +1,11 @@
+git config --global user.name MiguelLima
+git config --global usar.email mlimacamello@gmail.com
+
+-- Criar um projeto React Native Expo
+npx create-expo-app@latest calculadora --template blank
+
+cd calculadora
+npm i
+
+npx expo start
+npx expo start --android
